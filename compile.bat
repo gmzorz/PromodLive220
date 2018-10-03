@@ -7,14 +7,9 @@ for /f "delims=" %%A in ('cd') do (
 	set fn=%%~nxA
 )
 set moddir=%fn%_compiled
-if exist ..\%moddir% ( del ..\%moddir%\mod.ff & goto f_ ) else ( mkdir ..\%moddir% & goto f_ )
-:f_
-for /f "usebackq tokens=*" %%a in (`dir /b /a:d`) do (
-	xcopy "%%a" "..\..\raw\%%a" /SY
-)
-for %%a in (*.iwd) do (
-	xcopy %%a ..\%moddir% /SY
-)
+if exist ..\%moddir% ( del ..\%moddir%\mod.ff ) else ( mkdir ..\%moddir% )
+for /f "usebackq tokens=*" %%a in (`dir /b /a:d`) do ( xcopy "%%a" "..\..\raw\%%a" /SY )
+for %%a in (*.iwd) do ( xcopy %%a ..\%moddir% /SY )
 echo for /f "delims=" %%%%A in ('cd') do ( > run.txt
 echo set fn=%%%%~nxA >> run.txt
 echo ) >> run.txt
