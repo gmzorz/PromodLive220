@@ -11,7 +11,7 @@ for %%a in (*.iwd) do ( xcopy %%a ..\%moddir% /SY )
 echo for /f "delims=" %%%%A in ('cd') do ( > run.txt
 echo set fn=%%%%~nxA >> run.txt
 echo ) >> run.txt
-echo cd ../.. >> run.txt
+echo cd ..\.. >> run.txt
 echo iw3mp +set fs_game mods/%%fn%% +set r_mode "1280x720" +set r_fullscreen "0" +set scr_war_timelimit "0" +set g_gametype "war" >> run.txt
 copy run.txt ..\%moddir%\launch.bat & del run.txt
 copy /Y mod.csv ..\..\zone_source
