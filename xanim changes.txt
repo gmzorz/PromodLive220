@@ -1,0 +1,50 @@
+crouch:
+		//both pb_crouch_death_headshot_front //replace w pb_death_deadfallknee
+		//both pb_crouch_death_clutchchest //keep
+		//both pb_crouch_death_flip //replace w pb_death_stumblefall
+		//both pb_crouch_death_fetal //replace w pb_death_gutshot_fallback
+		//both pb_crouch_death_falltohands //keep
+		pb_death_run_left //replace w pb_death_jackiespin_left
+		pb_death_run_right //replace w pb_death_jackiespin_right
+		pb_death_run_back //replace w pb_death_flyback
+		pb_crouchrun_death_drop //replace w pb_death_upontoback
+		pb_crouchrun_death_crumple //replace w pb_death_jackiespin_vertical
+		both pb_death_run_forward_crumple //replace w pb_shotgun_death_back1
+		both pb_death_run_onfront //replace w pb_death_throathit_collapse
+		both pb_death_run_stumble // keep
+		
+		both pb_stand_death_neckdeath // replace w Sheilan falling backwards
+		both pb_stand_death_headchest_topple // replace w pb_stand_death_headchest_topple
+		both pb_stand_death_frontspin // chris cine (keep)
+		both pb_stand_death_nervedeath // ewy (replace
+		both pb_stand_death_legs //replace w cool falling back
+		both pb_stand_death_lowerback //replace w guts
+		both pb_stand_death_head_collapse //replace w chris kickup1
+		both pb_stand_death_neckdeath_thrash //replace w spin
+		
+		
+		no:
+		pb_death_flatonback
+		pb_death_legsout_left
+		pb_death_air_explosion
+		pb_shotgun_death_legs
+		pb_pbr_driver_death
+		
+		/*
+		both pb_throat //ehh 
+		both pb_chris //possibly 
+		both pb_chris_kickup 
+		both pb_gas //yea probs
+		both pb_guts //naah
+		both pb_handslegsfw_2
+		both pb_hs_back //nope
+		
+		both pb_kofez_kadima //no      
+		both pb_leftsholder //maybe
+		both pb_fall_backwards //no
+		both pb_spin //yess
+		
+		both pb_falling //instead of hs_back
+		both pb_fallingon
+		both pb_handslegsfw
+		both pb_ouch*/
