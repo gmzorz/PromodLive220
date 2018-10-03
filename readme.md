@@ -20,6 +20,7 @@ Assuming you've downloaded a mod through a site such as [CFGFactory](http://cfgf
 Once saved, select all folders from your downloaded mod (xmodel, xmodelparts, xmodelsurfs, materials, material-properties, etc..) and copy them over to the epml mod folder.
 
 If you'd like to replace an already existing weapon with the TAC-45, you need to navigate to the weapons/mp directory in order to do so. In there you will find the weapon rawfile, change the name of that file to whatever weapon you wish to replace (weapon rawfiles can be found in ```raw/weapons/mp```.
+If you want to add the weapon but not replace an existing weapon, check out [this](http://www.azsry.com/tut/promod_weapon_porting.html) tutorial
 
 We're one step away from compiling, and that is adding the weapon and image files to an .iwd file (infinity ward directory). You can use one of the existing .iwd files located in the mod folder but you may also choose to create a new one. This is done by making a new .zip file using WinRAR and renaming it to .iwd. Once done, you can right click the file and set its properties to open .iwd files always using WinRAR. Then open the file using WinRAR and drag/drop the weapons folder inside. do the same with the images folder.
 
