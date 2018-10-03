@@ -19,7 +19,7 @@ Assuming you've downloaded a mod through a site such as [CFGFactory](http://cfgf
 You'll (most likely) see a bunch of folders and a mod.csv file. the csv file has to be merged with the mod.csv file located in the epml mod folder, which means you need to open both mod.csv files using notepad and copy over the lines from the downloaded mod to the epml one. 
 Once saved, select all folders from your downloaded mod (xmodel, xmodelparts, xmodelsurfs, materials, material-properties, etc..) and copy them over to the epml mod folder.
 
-We're one step away from compiling, and that is adding the weapon and image files to the iwd (infinity ward directory). You can use one of the existing .iwd files located in the mod folder but you may also choose to create a new one. This is done by creating a new .zip file using WinRAR and renamed to .iwd. Once done, you can right click the file and set its properties to open .iwd files always using WinRAR. Then open the file using WinRAR and drag/drop the weapons folder inside. do the same with the images dir.
+We're one step away from compiling, and that is adding the weapon and image files to the iwd (infinity ward directory). You can use one of the existing .iwd files located in the mod folder but you may also choose to create a new one. This is done by creating a new .zip file using WinRAR and renamed to .iwd. Once done, you can right click the file and set its properties to open .iwd files always using WinRAR. Then open the file using WinRAR and drag/drop the weapons folder inside. do the same with the images folder.
 
 Once you're done, hit compile and try it out for yourself
 
