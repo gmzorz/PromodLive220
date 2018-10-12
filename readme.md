@@ -14,10 +14,8 @@ Clone or Download as zip and extract in ```Call of Duty 4: Modern Warfare/Mods/Y
 ### Adding Mods/Source files
 For this example i will be explaining how to add the [TAC-45](http://cfgfactory.com/downloads/show/5b290be6b086a) from Black Ops 2.
 
-*Note: Inside the TAC-45 zip is a folder called material_properties, it should be named material-properties. rename it if it's wrong*
-
 Assuming you've downloaded a mod through a site such as [CFGFactory](http://cfgfactory.com/), navigate to the rawfiles (if they're included). You'll (most likely) see a bunch of folders and a mod.csv file. the csv file has to be merged with the mod.csv file located in the epml mod folder, which means you need to open both mod.csv files using notepad and copy over the lines from the downloaded mod to the epml one. 
-Once saved, select all folders from your downloaded mod (xmodel, xmodelparts, xmodelsurfs, materials, material-properties, etc..) and copy them over to the epml mod folder.
+Once saved, select all folders from your downloaded mod (xmodel, xmodelparts, xmodelsurfs, materials, material_properties, etc..) and copy them over to the epml mod folder.
 
 If you'd like to replace an already existing weapon with the TAC-45, you need to navigate to the weapons/mp directory in order to do so. In there you will find the weapon rawfile, change the name of that file to whatever weapon you wish to replace (weapon rawfiles can be found in ```raw/weapons/mp```.
 If you want to add the weapon but not replace an existing weapon, check out [this](http://www.azsry.com/tut/promod_weapon_porting.html) tutorial
