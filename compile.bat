@@ -1,4 +1,5 @@
 @echo off
+setLocal enableDelayedExpansion 
 pushd %~dp0
 :: EZ compile script, just add folders in mod folder and they will automatically be copied to the ../raw dir
 :: compiled into newly generated mod folder, iwd files are copied over automatically 
