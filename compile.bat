@@ -5,8 +5,8 @@ pushd %~dp0
 :: compiled into newly generated mod folder, iwd files are copied over automatically 
 :: additional shortcut batch file has been added to the output dir, run and launch the mod in two clicks!
 :: http://gmzorz.com/
-for /f "delims=" %%A in ('cd') do ( set fn=%%~nxA )
-set moddir=%fn%_compiled
+for /f "delims=" %%A in ('cd') do ( set "fn=%%~nxA" )
+set "moddir=%fn%_compiled"
 if exist ..\%moddir% ( del ..\%moddir%\mod.ff ) else ( mkdir ..\%moddir% )
 for /f "usebackq tokens=*" %%a in (`dir /b /a:d`) do ( xcopy "%%a" "..\..\raw\%%a" /SY )
 for %%a in (*.iwd) do ( xcopy %%a ..\%moddir% /SY )
